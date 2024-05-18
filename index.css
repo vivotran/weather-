@@ -124,6 +124,7 @@ img {vertical-align: middle;}
     width: 700px;
     text-align: justify;
     font-size: 18px;
+    margin-left: 60px;
 }
 .introtitle {
     color: black;
@@ -131,7 +132,6 @@ img {vertical-align: middle;}
     
 }
 body {
-  background-image: url("https://cdnb.artstation.com/p/assets/images/images/003/680/429/large/nova-ashbell-sc01-03.jpg?1476361405");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -144,16 +144,18 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: absolute;
+  right: 10%;
+  top: 70%;
 }
 .container {
-  color: white;
-  background-image: url("https://media.giphy.com/media/G0Odfjd78JTpu/giphy.gif");
+  color: rgb(43, 43, 43);
+  background-image: url("https://i.pinimg.com/474x/60/9b/01/609b0181f805463898bcffd4eb2fac3c.jpg");
   width: 400px;
   margin: 0px auto;
   border-radius: 5px;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  border: 1px solid rgba(255, 255, 255, 0.233);
 }
 
 .search-bar {
@@ -164,7 +166,7 @@ body {
   position: relative;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(43, 43, 43);
 }
 
 .search-icon {
@@ -175,7 +177,7 @@ body {
 }
 
 .search-icon:hover {
-  color: #cacaca;
+  color:rgb(43, 43, 43);
 }
 
 #search-input {
@@ -184,11 +186,11 @@ body {
   padding: 3px 3px 3px 20px;
   background: transparent;
   height: 20px;
-  color: white;
+  color: rgb(43, 43, 43);
 }
 
 #search-input::placeholder {
-  color: rgb(206, 206, 206);
+  color: rgb(43, 43, 43);
 }
 
 .info-wrapper {
@@ -229,7 +231,7 @@ body {
 }
 
 .additional-section {
-  border-top: 1px solid white;
+  border-top: 1px solid rgb(43, 43, 43);
   display: flex;
   flex-direction: column;
   padding: 10px 20px;
@@ -261,7 +263,7 @@ body {
     width: 300px;
     height: 400px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    border-radius: 15px;
+    border-radius: 15px;;
 }
 
 .text {
