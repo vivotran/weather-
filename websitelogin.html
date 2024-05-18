@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="websitelogin.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="title">
+        <span class="material-symbols-outlined">
+            menu
+            </span>
+       <h1 class="lunar">Tet Tales</h1> 
+       <span class="material-symbols-outlined">
+        login
+        </span>
+        
+        
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+<div class="login">
+    <form id="loginForm" onsubmit="return validateLoginForm();">
+        <h3>Tet Tales login</h3>
+        <br>
+        <label for="username">username:</label>
+        <input id="username" type="text" placeholder="your username">
+        <label for="password">password:</label>
+        <input id="password" type="password" placeholder="your password">
+        <div class="text-box">
+            <button  id="login-btn" type="submit">submit</button>
+        </div>
+        <a href="websitesignup.html">sign up</a>
+    </form>
+
+    <script> 
+        let form = document.querySelector('form');
+        form. addEventListener('submit', (e) => {
+            e.preventDefault();
+        function validateLoginForm (){
+            let LoginEmail = document.getElementById("username").value;
+            let LoginPassword = document.getElementById("password").value;
+
+            if (LoginEmail.trim ()===''|| LoginPassword.trim ()==='') {
+                alert('please fill in all information');
+                return flase;
+            }
+            alert('sign in successfully');
+            return true;
+        }
+
+        if (validateLoginForm()) {
+            location.href = "./index.html";
+        }
+
+    })
+    </script>
+</div>
+</body>
+</html>

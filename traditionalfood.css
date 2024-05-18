@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+* {box-sizing:border-box}
+h1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font: 25px times-new-romand bold;
+}
+
+.title{
+    background-color: rgb(57, 57, 57);
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 5px;
+}
+
+.intro {
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+}
+.introtitle {
+    color: black;
+    font-size: 35px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.images {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 15px;
+}
+
+.text {
+    text-align: center;
+    font: 20px times-new-romand bold;
+}
+
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 75px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ }
+          
+/* Modal Content */
+.modal-content {
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+border-radius: 10px;
+}
+          
+/* The Close Button */
+.close {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+margin-left: 20px;
+}
+          
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.content {
+display: flex;
+}
+
+.content-text {
+    margin-right: 20px;
+}
+
+.image {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+        
